@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: sans-serif;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+.continer{
+
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #dddd;
+    border-radius: 5px; 
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+    border-radius: 5px;
+}
